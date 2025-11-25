@@ -1,0 +1,84 @@
+    *{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.start{
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(5, 117, 15);
+}
+
+.start a{
+    text-decoration: none;
+    color: white;
+}
+
+.p1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8oQl_K7oIHZ5v_6m0j7yrx1oIZKwxLiHmHw&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.m1{
+    box-sizing: border-box;
+    margin-left: 100px;
+    color: black;
+    padding-bottom: 80px;
+}
+
+.p1 h3{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.p1 p{
+    margin-top: 30px;    
+}
+
+.contact{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    padding: auto;
+}
